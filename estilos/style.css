@@ -21,7 +21,6 @@ body {
     z-index: -1;
     position: absolute;
     left: 0;
-
 }
 
 #wave-background {    
@@ -48,6 +47,19 @@ main {
     background-repeat: no-repeat;
 }
 
+.tocando {
+    margin: 2px auto 0px auto;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: rgba(211, 211, 211, 0.71);
+}
+
+.nome-podcast {
+    margin: 0px auto 15px auto;
+    color: white;
+    font-weight: bold;
+}
+
 img {
     width: 100%;
     display: block;
@@ -65,25 +77,6 @@ h2 {
     font-size: 1.4em;
 }
 
-span {
-    color: white;
-}
-
-span:hover {
-    display: none;
-}
-
-#coracao-curtido {
-    color: white;
-    width: 30px;
-    display: none;
-}
-
-#coracao-curtido:hover {
-    display: block;
-}
-
-
 p {
     color: lightgray;
     margin-top: 10px;
@@ -93,4 +86,22 @@ audio {
     width: 100%;
     border-radius: 0;
     margin-top: 20px;
+}
+
+#voltar {
+    background-color: #245b55;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 180px;
+}
+
+#voltar:hover {
+    background-color: #153632;
+    cursor: pointer;
+}
+
+span#botao-voltar {
+    font-size: 2.5em;
+    color: white;
 }
