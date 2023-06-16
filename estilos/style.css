@@ -87,21 +87,3 @@ audio {
     border-radius: 0;
     margin-top: 20px;
 }
-
-#voltar {
-    background-color: #245b55;
-    padding: 10px;
-    border-radius: 15px;
-    position: absolute;
-    bottom: 180px;
-}
-
-#voltar:hover {
-    background-color: #153632;
-    cursor: pointer;
-}
-
-span#botao-voltar {
-    font-size: 2.5em;
-    color: white;
-}
